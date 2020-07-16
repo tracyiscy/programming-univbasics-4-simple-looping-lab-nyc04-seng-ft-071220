@@ -16,7 +16,7 @@ end
 
 def return_string_array(array)
   count=0
-  newarray=Array.new
+  newarray=[]]
   while count<array.length do
     newarray.push(array[count])
     count+=1
