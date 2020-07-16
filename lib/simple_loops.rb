@@ -21,7 +21,7 @@ def return_string_array(array)
     newarray.push(array[count].to_i)
     count+=1
   end
-  return newarray
+  newarray
 end
 
 
