@@ -8,12 +8,21 @@ end
 
 def loop_message_n_times(message,number)
   count=0
-  while count<number) do
+  while count<number do
     puts message
     count+=1
   end
 end
 
+def return_string_array(array)
+  count=0
+  newarray=Arrat.new
+  while count<array.length do
+    newarray.push(array[count])
+    count+=1
+  end
+  return newarray
+end
 
 
 def output_array(array)
